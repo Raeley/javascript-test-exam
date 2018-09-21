@@ -7,6 +7,7 @@ h2{
 .right{
   position:absolute;
   right:0px;
+  float:right;
 
 }
 .center {
@@ -15,4 +16,17 @@ h2{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 50px;
+}
+.box{
+  background-color: lightgrey;
+    width: 1000px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 30px;
+}
+marquee{
+  width:100%;
+ background-color:rgb(64,0,0);
+ font-size: 25px;
+ color:blue;
 }
